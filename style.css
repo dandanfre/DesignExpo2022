@@ -39,6 +39,7 @@ hr{
 
 #beskrivelse{
     margin-bottom: 20vh;
+    
 }
 
 div > p+p{
@@ -64,4 +65,14 @@ div > p+p{
 ul{
     margin-left: -40px;
     list-style: none;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  
+    
 }
