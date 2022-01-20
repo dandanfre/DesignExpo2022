@@ -1,0 +1,67 @@
+html {
+    background-color: #0d0d0d;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h1,h2, p{
+    font-family: termina;
+    color: #ffffff;
+}
+
+body{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+h1, body > p:not(#some){
+    text-align: center;
+}
+
+#skille, #epost_container, #adress_container, #some_container, #SoMeBox, #SOMElist{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    position: relative;
+    top:-35px;
+    font-weight: 200;
+}
+
+hr{
+    height: 3px;
+    width: 80vw;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+#beskrivelse{
+    margin-bottom: 20vh;
+}
+
+div > p+p{
+    margin-left: 35.5vw;
+    text-align: right;
+    hyphens: auto;
+    width:20em;
+}
+
+#vertical_sign{
+    position: relative;
+    bottom: -18px;
+    height: 20px;
+    width: 3px;
+    margin-left: 30px;
+    background-color: #ffffff;
+}
+
+#boxGraphic{
+    margin-left: 60%;
+}
+
+ul{
+    margin-left: -40px;
+    list-style: none;
+}
