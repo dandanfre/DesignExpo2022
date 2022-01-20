@@ -4,11 +4,20 @@ html {
 
 h1{
     font-weight: 200;
+    font-size: 3vw;
 }
 
 h1,h2, p{
     font-family: termina;
     color: #ffffff;
+}
+
+p{
+    font-size: 1vw;
+}
+
+h2{
+    font-size: 2vw;
 }
 
 body{
@@ -25,12 +34,14 @@ h1, body > p:not(#some){
     flex-direction: row;
 }
 h2{
-    position: relative;
-    top:-35px;
+    /*position: relative;
+    top:-35px;*/
     font-weight: 200;
 }
 
 hr{
+    position: relative;
+    bottom:-2.8vw;
     height: 3px;
     width: 80vw;
     background-color: #ffffff;
@@ -38,7 +49,7 @@ hr{
 }
 
 #beskrivelse{
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     
 }
 
@@ -51,8 +62,8 @@ div > p+p{
 
 #vertical_sign{
     position: relative;
-    bottom: -18px;
-    height: 20px;
+    bottom: -1vw;
+    height: 1.5vw;
     width: 3px;
     margin-left: 30px;
     background-color: #ffffff;
@@ -68,11 +79,14 @@ ul{
 }
 
 #logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8%;
-  margin-top: 8%;
+  height: 60vh;
+  width: 670vw; 
+  max-width: 100%;
+  height: auto;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 20vh;
+  margin-top: 10vh;
   
     
 }
