@@ -34,6 +34,10 @@ h1, body > p:not(#some){
     text-align: center;
 }
 
+/*H1 header in VåreSponsorer*/
+#spons{
+    margin-top: 200px;
+}
 /*helps alligning elements in rows*/
 #skille, #epost_container, #adress_container, #some_container, #navbar{
     display: flex;
