@@ -4,6 +4,7 @@ html {
 }
 
 h2 {
+    text-align: center;
     font-size: 2vw;
     font-weight: 200;
 }
@@ -11,6 +12,7 @@ h2,p {
     font-family: termina, monospace;
     color:#F2F2F2;
 }
+
 
 /*Horizontally centering "kategorier" using flexbox*/
 #kategorier {
@@ -38,4 +40,19 @@ h2,p {
 }
 .lunsj {
     border-color: #F2F2F2;
+}
+.LesMer_knapp {
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    bottom: 60px;
+    left: 20px;
+    right: 200px;
+}
+.arrangement {
+    margin-left: auto;
+    margin-right: auto;
 }
