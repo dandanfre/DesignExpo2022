@@ -1,0 +1,28 @@
+html {
+    background-color: #0d0d0d;
+    scroll-behavior: smooth;
+}
+
+/*Horizontally centering kategorier using flexbox*/
+#kategorier {
+    display:flex;
+    justify-content: center;
+}
+
+.workshop, .bedpress, .frokost, .lunsj{
+    border-style: solid;
+    border-radius: 40px;
+}
+
+.workshop {
+    border-color: #A30478;
+}
+.bedpress {
+    border-color: #00FCBC;
+}
+.frokost {
+    border-color: #F6EA54;
+}
+.lunsj {
+    border-color: #F2F2F2;
+}
