@@ -52,17 +52,32 @@ h1,h2,p {
 .LesMer_knapp {
     border-color: #F2F2F2;
     border-style: solid;
-    border-radius: 2vw;
-    padding: 0.1vw;
+    border-radius: 3vw;
+    padding: 1.25vw 1.5vw 1.25vw;
+    font-size: 1.5vw;
+    display: inline-block;
 }
 .arrangement {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
+    top: 50px;
 }
 
 td {
     text-align: center;
     font-size: 2vw;
+}
+
+.MeldPå_knapp {
+    background-color: #F2F2F2;
+    color: #0d0d0d;
+    padding: 1.25vw 1.5vw 1.25vw;
+    border-radius: 3vw;
+    text-align: center;
+    font-family: termina, monospace;
+    font-size: 1.5vw;
+    display: inline-block;
 }
 
 
