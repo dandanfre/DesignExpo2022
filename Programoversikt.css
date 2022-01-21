@@ -1,0 +1,41 @@
+html {
+    background-color: #0d0d0d;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 2vw;
+    font-weight: 200;
+}
+h2,p {
+    font-family: termina, monospace;
+    color:#F2F2F2;
+}
+
+/*Horizontally centering "kategorier" using flexbox*/
+#kategorier {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/*Styling the border in general*/
+.workshop, .bedpress, .frokost, .lunsj{
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+/*Specific styling*/
+.workshop {
+    border-color: #A30478;
+}
+.bedpress {
+    border-color: #00FCBC;
+}
+.frokost {
+    border-color: #F6EA54;
+}
+.lunsj {
+    border-color: #F2F2F2;
+}
