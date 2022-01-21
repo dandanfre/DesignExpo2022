@@ -3,12 +3,18 @@ html {
     scroll-behavior: smooth;
 }
 
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 200;
+}
+
 h2 {
     text-align: center;
     font-size: 2vw;
     font-weight: 200;
 }
-h2,p {
+h1,h2,p {
     font-family: termina, monospace;
     color:#F2F2F2;
 }
@@ -19,13 +25,15 @@ h2,p {
     display:flex;
     justify-content: center;
     justify-content: space-around;
+    font-size: 1.5vw;
+    font-weight: 150;
 }
 
 /*Styling the border in general*/
 .workshop, .bedpress, .frokost, .lunsj{
     border-style: solid;
-    border-radius: 40px;
-    padding: 20px;
+    border-radius: 3vw;
+    padding: 1.5vw;
 }
 
 /*Specific styling*/
@@ -44,15 +52,17 @@ h2,p {
 .LesMer_knapp {
     border-color: #F2F2F2;
     border-style: solid;
-    border-radius: 30px;
-    padding: 10px;
-    position: relative;
-    top: 30px;
-    bottom: 60px;
-    left: 20px;
-    right: 200px;
+    border-radius: 2vw;
+    padding: 0.1vw;
 }
 .arrangement {
     margin-left: auto;
     margin-right: auto;
 }
+
+td {
+    text-align: center;
+    font-size: 2vw;
+}
+
+
