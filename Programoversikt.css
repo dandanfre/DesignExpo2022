@@ -3,17 +3,20 @@ html {
     scroll-behavior: smooth;
 }
 
-/*Horizontally centering kategorier using flexbox*/
+/*Horizontally centering "kategorier" using flexbox*/
 #kategorier {
     display:flex;
     justify-content: center;
 }
 
+/*Styling the border in general*/
 .workshop, .bedpress, .frokost, .lunsj{
     border-style: solid;
     border-radius: 40px;
+    padding: 20px;
 }
 
+/*Specific styling*/
 .workshop {
     border-color: #A30478;
 }
