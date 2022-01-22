@@ -195,11 +195,36 @@
                 <td class="sluttTid"><p>18:00</p></td>
             </tr>
             <tr>
-              <td class="LesMer_knapp"><p>Les Mer</p></td>
+              <td class="trigger" id="LesMer_knapp"><p>Les Mer</p>p></td>
               <td class="BedriftKategori"><p>BLANK, bedpress</p></td>
               <td class="MeldPå_knapp"><a href="" target="blank">MELD PÅ</a></td>
             </tr>
-          </table> 
-        <script src="navbar.js"></script>
+          </table>
+          
+          <div class="modal">
+              <div class="modal-content">
+                  <span class="close-button">&times;</span>
+                  <p>Some text in the Modal..</p>
+              </div>
+          </div>
+ 
+        <script>
+            const modal = document.querySelector(".modal");
+            const trigger = document.querySelector(".trigger");
+            const closeButton = document.querySelector(".close-button");
+
+            function toggleModal() {
+                modal.classList.toggle("show-modal");
+            }
+            function windowOnClick(event) {
+                if (event.target == modal) {
+                    toggleModal();
+                }
+            }
+            trigger.addEventListener("click", toggleModal);
+            closeButton.addEventListener("click", toggleModal);
+            window.addEventListener("click", windowOnClick);
+        </script>
+
     </body>
 </html>
