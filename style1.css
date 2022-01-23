@@ -1,0 +1,209 @@
+
+html {
+    background-color: #0d0d0d;
+    scroll-behavior: smooth;
+}
+
+/*places the content in the middle of the page*/
+#body{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 3vw; /*Scalable font*/
+    text-align: center;
+    margin: 30vh 10vw;
+}
+
+h2{
+    font-size: 2vw;
+    font-weight: 200;
+    width: 50vw;
+    margin: 10vh auto;
+    border-bottom: 1px solid #c4c4c4;
+    text-align: center;
+}
+
+#melding{
+    border-bottom: none;
+    margin-top: 5vw;
+}
+
+
+h1,h2, p,a{
+    font-family: termina, monospace;
+    color: #f2f2f2;
+}
+
+#kategorier{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#kategorier p{
+    margin-left: -15vw;
+    margin-right: -15vw;
+    font-size: 1vw;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.25em;
+    padding: 0.5em;
+}
+
+.workshop{
+    border-color: #A30478;
+    background-color: #A30478;
+}
+
+.bedpress{
+    border-color: #00FCBC;
+    background-color: #00FCBC;
+    color: #000000;
+}
+
+.lunsj{
+    border-color: #E6EA54;
+    background-color: #E6EA54;
+    color: #000000;
+}
+
+.annet{
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    color: #000000;
+}
+
+
+/*Styling for navbar*/
+
+#navbarLogo{
+    height: 9vw;
+    width: 25vw; 
+    margin-left: -5vw;
+    margin-right: 9vw;
+  }
+
+#navbar{
+    width: 100vw;
+    position: fixed;    
+    background-color: #0d0d0d;
+    top: 0;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+    display: flex;
+}
+
+.navbarLinks > a{
+  justify-content: space-evenly;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+.navbarLinks > a:hover {
+    text-decoration: underline;
+}
+
+
+.un {
+    display: inline-block;
+  }
+  
+  .un::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: #ffffff;
+    transition: 300ms;
+  }
+  
+  .un:hover::after {
+    width: 100%;
+  }
+/*table*/
+  .arrangement{
+      margin:10vw auto 10vw auto;
+      width:70vw;
+  }
+
+
+/*First row, or td*/
+  .startTid{
+    width: 5vw;    
+  }
+
+  .startTid p, .sluttTid p{
+      font-weight: 1000;
+      font-size: 1.8vw;
+  }
+
+.hrLine > hr {
+    width:50vw;
+    height: 2px;
+    background-color: #f2f2f2;
+}
+
+
+/*Second row, or td*/
+.LesMer_knapp > .knapp, .MeldPå_knapp > .knapp{
+    border-style: solid;
+    border-color: #f2f2f2;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    border-radius:20px ;
+    border-width: 0.18em;
+    font-family: termina, monospace;
+    font-size: 1vw;
+    padding:0.5em;
+}
+
+.LesMer_knapp > .knapp:hover, .MeldPå_knapp > .knapp:hover, .workshop:hover{
+    background-color: #f2f2f2;
+    color:#000000;
+}
+
+
+
+/*styling of links, removes styling of link states*/
+.LesMer_knapp >.knapp:visited, .MeldPå_knapp > .knapp:visited{
+    text-decoration: none;
+}
+
+.LesMer_knapp >.knapp:active, .MeldPå_knapp > .knapp:active{
+    text-decoration: none;
+}
+
+.LesMer_knapp >.knapp:link, .MeldPå_knapp > .knapp:link{
+    text-decoration: none;
+}
+
+.LesMer_knapp, .MeldPå_knapp{
+    width: 20vw
+}
+
+
+p::selection, a::selection, h1::selection,h2::selection,span::selection{
+    background-color: #f2f2f2;
+    color: #0d0d0d;
+}
+
+/*Box for containing firm and event*/
+.descCont{
+    display: flex;
+    align-items: baseline;
+}
+
+.descCont > p:first-child{
+    font-size: 1.8vw;
+}
+.descr{
+    font-size: 0.9vw; 
+    hyphens: auto;
+    margin-right: 2vw;
+}
