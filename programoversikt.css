@@ -1,0 +1,82 @@
+html {
+    background-color: #0d0d0d;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 200;
+}
+h1,h2,p {
+    font-family: termina, monospace;
+    color:#F2F2F2;
+}
+
+
+/*Horizontally centering "kategorier" using flexbox*/
+#kategorier {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    font-weight: 150;
+}
+
+/*Styling the border in general*/
+.workshop, .bedpress, .frokost, .lunsj{
+    border-style: solid;
+    border-radius: 3vw;
+    padding: 1.5vw;
+}
+
+/*Specific styling*/
+.workshop {
+    border-color: #A30478;
+}
+.bedpress {
+    border-color: #00FCBC;
+}
+.frokost {
+    border-color: #F6EA54;
+}
+.lunsj {
+    border-color: #F2F2F2;
+}
+.arrangement {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: 2vw;
+    padding: 0%;
+}
+
+.assignment tr{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.MeldPå_knapp {
+    background-color: #F2F2F2;
+    color: #0d0d0d;
+    padding: 1.25vw 1.5vw 1.25vw;
+    border-radius: 3vw;
+    text-align: center;
+    font-family: termina, monospace;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+
