@@ -14,7 +14,7 @@ h1,h2, p,a{
 }
 
 /*different texts should scale differently*/
-p{
+p, #epostLink{
     font-size: 1vw;
 }
 
@@ -43,20 +43,23 @@ h1, body > p:not(#some),#h2{
     display: flex;
     flex-direction: row;
 }
+#skille{
+    display: flex;
+    align-items: baseline;
+}
 
 
-p::selection, a::selection, h1::selection,h2::selection, span::selection{
+p::selection, a::selection, h1::selection,h2::selection, span::selection, #linkEpost::selection{
     background-color: #f2f2f2;
     color: #0d0d0d;
 }
 /*Dynamic horisontal line*/
 hr{
-    position: relative;
-    bottom:-2.8vw;
-    height: 3px;
+    height: 2px;
     width: 80vw;
     background-color: #ffffff;
     margin-left: 10px;
+    border:none;
 }
 
 #beskrivelse{
@@ -65,7 +68,7 @@ hr{
 }
 
 /*dynamic email and adress when viewport is different*/
-div > p+p{
+div > p+p, #epostLink{
     margin-left: 35.5vw;
     text-align: right;
     hyphens: auto;

@@ -11,6 +11,7 @@ h1,h2, p,a {
     font-family: termina, monospace;
     color: #F2F2F2;
     margin-left: 3vw;
+    margin-right: 5vw;
 }
 #pil:hover{
     cursor: pointer;
@@ -27,6 +28,9 @@ h1,h2, p,a {
 hr {
     background-color: #F2F2F2;
     margin-left: 3vw;
+    height: 2px;
+    margin-right: 5vw;
+    border: none;
 }
 
 /*different texts should scale differently*/
@@ -56,6 +60,8 @@ h2{
     font-size: 1vw;
     padding: 0.5em;
     width: 20vw;
+    margin-top: 10em;
+    margin-bottom: 10em;
 }
 .MeldPå_knapp:hover {
     background-color: #F2F2F2;

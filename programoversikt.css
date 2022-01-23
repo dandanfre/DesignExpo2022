@@ -18,7 +18,9 @@ h1,h2,p {
     font-family: termina, monospace;
     color:#F2F2F2;
 }
-
+hr{
+    border:none;
+}
 
 /*Horizontally centering "kategorier" using flexbox*/
 #kategorier {
