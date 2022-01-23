@@ -164,7 +164,7 @@ h1,h2, p,a{
     padding:0.5em;
 }
 
-.LesMer_knapp > .knapp:hover, .MeldPå_knapp > .knapp:hover, .workshop:hover{
+.LesMer_knapp > .knapp:hover, .MeldPå_knapp > .knapp:hover{
     background-color: #f2f2f2;
     color:#000000;
 }
