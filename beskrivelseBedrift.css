@@ -12,11 +12,23 @@ h1,h2, p,a {
     color: #F2F2F2;
     margin-left: 3vw;
 }
-
+#pil:hover{
+    cursor: pointer;
+}
+#pil, .pil {
+    font-size: 2vw;
+	max-width:1vw;
+}
+#first {
+    background-color: #F2F2F2;
+    margin-left: 3vw;
+    width: 5vw;
+}
 hr {
     background-color: #F2F2F2;
     margin-left: 3vw;
 }
+
 /*different texts should scale differently*/
 p{
     font-size: 1vw;
@@ -48,14 +60,15 @@ h2{
 .MeldPå_knapp:hover {
     background-color: #F2F2F2;
     color: #0d0d0d;
+    cursor: pointer;
 }
-.MeldPå_knapp:visited {
+.MeldPå_knapp:visited, .pil:visited {
     text-decoration: none;
 }
-.MeldPå_knapp:active {
+.MeldPå_knapp:active, .pil:active {
     text-decoration: none;
 }
-.MeldPå_knapp:link {
+.MeldPå_knapp:link, .pil:link {
     text-decoration: none;
 }
 
